@@ -27,11 +27,12 @@ Technical Skills: Pandas, requests, JSON, numpy, Matplotlib, Seaborn, Time Serie
 # Conclusion:
 Out of the 4 ML models, the RandomForestRegressor model produces the best scores followed by the DecisionTreeRegressor model. The Normalised RMSE scores from the RandomForestRegressor model deviates in the range of 9% to 15% from the actual values.
 
-# Future expansions:
-- the taxi availability data can be used for other problem statements, such as to analyse an area's taxi demands across different time periods.
-- Similar methodology can be applied to taxi datasets in other countries.
-- Curently the taxi availability data is greatly affected by the pandemic. We anticipate that the Singapore taxi traffic during this period will not be accurate once situation returns to normalcy.
+# Ideas for expansion:
+- the taxi availability data can be used for other problem statements, such as to analyse taxi demands across different locations and time periods, which could help taxi companies to anticipate and optimize taxi distributions at peak periods across the country.
+- Similarly, the ML model could be adopted for ride-sharing companies as well. 
+- The dataset could benefit from additional data such as weather and public transportation availability, as bad weather plus train service disruptions contribute to an increase in taxi demand. Combined with weather forecast, this could help taxi and ride-share companies in demand predictions.
 
 # Useful Reading:
 1) Python API Tutorial: Getting Started with APIs (https://www.dataquest.io/blog/python-api-tutorial/)
 2) What is Considered a Good RMSE Value? (https://www.statology.org/what-is-a-good-rmse/)
+3) 5 ways ML helps in Uber Services Optimization (https://www.analyticssteps.com/blogs/5-ways-ml-helps-uber-services-optimization)
